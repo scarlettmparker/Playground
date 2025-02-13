@@ -1,0 +1,41 @@
+.wordle {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  left: 50%;
+  top: 50%;
+  width: 400px;
+  height: 600px;
+  transform: translate(-50%, -50%);
+
+  color: #272121;
+  font-family: 'Arial';
+}
+
+.word {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.letter {
+  width: 80px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dbdbdb;
+  font-size: 1.5rem;
+}
+
+.input {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
