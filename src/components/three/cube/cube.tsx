@@ -4,8 +4,6 @@ import * as THREE from "three";
 
 /**
  * Cube component that follows the mouse.
- * 
- * @param position Position vector for x, y, and z value of the cube.
  * @return Cube component.
  */
 const Cube: React.FC = () => {
